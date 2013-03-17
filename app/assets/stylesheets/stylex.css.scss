@@ -1,0 +1,30 @@
+/*You could change the font*/
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+
+$btnPrimaryBackground: purple;
+$navbarBackground: white;
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+body {
+	padding-top : 60px;
+}
+.footer {
+	margin: 60px 0;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
+.navbar-inner{
+	@include box-shadow(none !important);
+	border: 0;
+}
+.jumbotron{
+	margin: 60px 0;
+	text-align: center;
+}
+.jumbotron h1{
+	font-size: 60px;
+	line-height: 1;
+}
